@@ -25,7 +25,8 @@ int current;
 tmp = -1;
 for(int i = 1; i <MAX_SCORE ; i++)
 {
-   if(coder[i] != 0){
+   if(coder[i] != 0)
+   {
        prev[i] = tmp;
        current = tmp;
        tmp = i;
