@@ -13,7 +13,7 @@ A.
 # <h3>Output:</h3>
 For each test case, print the minimum time in which all array elements will become 
 greater than or equal to K. Print a new line after each test case.
-# <h4>constraints</h4><br>
+# <h4>constraints</h4>
 1<=T<=5<br>1<=N<=10<sup>5</sup><br>
 1<=A[i],K<=10<sup>6</sup><br>
 <table style="width:100%"> 
