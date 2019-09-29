@@ -23,7 +23,7 @@ greater than or equal to K. Print a new line after each test case.
 <td>3<br>    0</td> 
 </tr> 
 </table>
-# <h2>2. Hamiltonian and Lagrangian </h2>
+<h2>2. Hamiltonian and Lagrangian </h2>
 Students have become secret admirers of SEGP. They find the course exciting and the 
 professors amusing. After a superb Mid Semester examination, it’s now time for the 
 results. The TAs have released the marks of students in the form of an array, where arr[i] 
@@ -45,3 +45,19 @@ those on its right side.
   <tr>   <tr>    <td>6<br>     16 17 4 3 5 2</td>  
   <td>17 5 2</td> 
   </tr> </table>
+<h2>3. Frustrated coders </h2>
+There are N frustrated coders standing in a circle with a gun in their hands. Each coder 
+has a skill value S[ i ] and he can only kill those coders that have strictly less skill than 
+him. One more thing, all the guns have only 1 bullet. This roulette can take place in 
+any random order. Fortunately, you have the time stone (haaan wo harre wala) and 
+you can see all possible outcomes of this scenario. Find the outcome where the total 
+sum of the remaining coder's skill is minimum. Print this sum.
+<h3>Input Format</h3>
+The first line contains N the no. of coders
+The next line contains N elements where the ith element is theS[ i ] of ith coder.
+<h3>Output Format</h3>
+Print a single line containing the minimum sum.
+# <h4>Constraints</h4> 1<= N <= 1000000<br> 1<=S[ i ]<=1000<br> <table style="width:100%"> <tr> 
+  <th>SAMPLE INPUT</th>   <th>SAMPLE OUTPUT</th>
+  </tr>  <tr>    <td>6<br>      1 7 2 2 4 4</td> 
+  <td>11</td>  </tr>  </table>
