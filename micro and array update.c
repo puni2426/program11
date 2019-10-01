@@ -2,12 +2,12 @@
 #include<stdio.h>
 int main()
 {
-    int t,n,i,min=10000000000,k;
+    int t,n,i,min=100,k;
     printf("enter the number of test cases\n");
     scanf("%d",&t);
     while(t--)
     {
-     min=10000000000;
+     min=100;
      printf("enter the n and k value\n");
      scanf("%d%d",&n,&k);
      int a[n];
