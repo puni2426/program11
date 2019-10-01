@@ -11,9 +11,9 @@ int main()
      printf("enter the n and k value\n");
      scanf("%d%d",&n,&k);
      int a[n];
+     printf ("enter the array elements\n");
      for(i=0;i<n;i++)
      {
-     printf ("enter the array elements\n");
       scanf("%d",&a[i]);
       if(a[i]<min)
        min=a[i];
