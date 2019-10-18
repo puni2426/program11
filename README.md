@@ -80,8 +80,8 @@ N numbers- order of records.
 #<h3>Output Format/h3>
 Print "Happy" if the playlist has songs from 1 to N in order else "Sad".
 #<h4>Constraints</h4>
-1<=N<=10^5
+1<=N<=10<sup>5</sup>
 The array consists of 1-N distinct numbers.
-<table> <tr> <th>sample input</th><th>sample output</th></tr>
-  <tr><td>5</td><td>happy</td></tr>
-  <tr><td>1 2 3 4 5</td></tr><table>
+<table> <tr> <th>SAMPLE INPUT</th><th>SAMPLE OUTPUT</th></tr>
+  <tr><td>5<br>1 2 3 4 5</td><td>happy</td></tr>
+  <table>
