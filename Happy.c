@@ -17,8 +17,10 @@ int main()
 {
 int N,max=0;
 int order=1;
+ printf("enter the N elements\n");
 scanf("%d",&N);
 int arr[N];
+printf("enter the array element\n");
 for(int i=0;i<N;i++)
 {
 scanf("%d",&arr[i]);
