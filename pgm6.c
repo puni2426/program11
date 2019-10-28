@@ -43,3 +43,4 @@ void delete1(int n,int a[])
             a[i+1]=t;
          }
      }
+}
